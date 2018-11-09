@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_addition2"
+    android:layout_width="fill_parent"
+    android:background="@drawable/plain"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:id="@+id/buttonprev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREV"
+        android:onClick="goToPrevActivity"
+        android:background="#ECF0F1"
+        android:textColor="#000000"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
+
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="goToNextActivity"
+        android:background="#ECF0F1"
+        android:textColor="#000000"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignBaseline="@+id/buttonprev"
+        android:layout_alignBottom="@+id/buttonprev"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/buttonsum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practise more"
+        android:onClick="goToAActivity"
+        android:layout_marginBottom="78dp"
+        android:layout_above="@+id/buttonprev"
+        android:layout_centerHorizontal="true"
+        android:background="#F1C40F"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here the answer you can find"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:id="@+id/buttonsum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum/Addition"
+        android:background="#27AE60"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="enter a number"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:layout_marginTop="46dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="enter another number"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Maths Function"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
+
+

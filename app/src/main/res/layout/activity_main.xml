@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plain"
+    tools:context="com.sid.pandiri.simplemathlearn.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum/Addition"
+        android:textSize="20dp"
+        android:onClick="goToAnActivity"
+        android:layout_marginLeft="86dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Widget.AppCompat.Button"
+        android:background="#27AE60"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtraction"
+        android:textSize="20dp"
+        android:onClick="goToAnotherActivity"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/buttonsum"
+        android:layout_alignLeft="@+id/buttonsum"
+        android:layout_alignStart="@+id/buttonsum"
+        android:background="#27AE60"
+        android:textColor="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/buttonmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="multiplication"
+        android:textSize="20dp"
+        android:onClick="goToAnotherActivity1"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/buttonsub"
+        android:layout_alignLeft="@+id/buttonsub"
+        android:layout_alignStart="@+id/buttonsub"
+        android:background="#27AE60"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <Button
+        android:id="@+id/buttondiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:textSize="20dp"
+        android:onClick="goToAnotherActivity2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_below="@+id/buttonmul"
+        android:layout_alignLeft="@+id/buttonmul"
+        android:layout_alignStart="@+id/buttonmul"
+        android:layout_marginTop="62dp"
+        android:background="#27AE60"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+</RelativeLayout>
