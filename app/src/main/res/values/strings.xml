@@ -2,4 +2,6 @@
     <string name="app_name">SimpleMathLearn</string>
     <string name="title_activity_multiplicationtest5">Multiplicationtest5</string>
     <string name="title_activity_multiplication">MultiplicationActivity</string>
+      <string name="enter_a_number">Enter a number</string>
+    <string name="enter_another_number">Enter another number</string>
 </resources>
